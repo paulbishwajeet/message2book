@@ -1,0 +1,26 @@
+{
+  "telegram_token": "8483267991:AAG2wIZuw3Iu80X9Pleva2NP72dA3VngNRE",
+  "use_webhook": false,
+  "webhook_url": "https://your-domain.com/webhook",
+  "polling_fallback": true,
+  "business_hours": {
+    "start": "09:00",
+    "end": "18:00"
+  },
+  "blacklist": [],
+  "whitelist": [],
+  "rate_limit": {
+    "messages": 5,
+    "seconds": 60
+  },
+  "response_templates": {
+    "greeting": "Hi [USER_NAME]! Thanks for reaching out. I'm currently away but will get back to you soon!",
+    "business_hours": "Thanks for your message! Our business hours are 9 AM - 6 PM EST. I'll respond during the next business day.",
+    "urgent": "I see this might be urgent. For immediate assistance, please call [PHONE_NUMBER] or email [EMAIL].",
+    "default": "Thank you for your message! I'm currently not available but will respond as soon as possible."
+  },
+  "keywords": {
+    "greeting": ["hello", "hi", "good morning", "good afternoon", "good evening"],
+    "urgent": ["urgent", "emergency", "asap"]
+  }
+}
