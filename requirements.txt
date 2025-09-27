@@ -2,3 +2,13 @@ python-telegram-bot[job-queue]
 Flask
 python-dotenv
 pytest
+langchain
+langgraph
+boto3
+opensearch-py
+openai
+tiktoken
+langchain-openai
+zappa
+requests-aws4auth
+langchain-community

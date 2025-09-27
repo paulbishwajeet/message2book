@@ -1,0 +1,22 @@
+{
+    "dev": {
+        "app_function": "webserver.app",
+        "aws_region": "us-east-1",
+        "profile_name": "default",
+        "project_name": "message2book",
+        "runtime": "python3.13",
+        "s3_bucket": "zappa-message2book-bucket",
+        "keep_warm": false,
+        "memory_size": 512,
+        "timeout_seconds": 300,
+        "apigateway_enabled": true,
+        "environment_variables": {
+            "TELEGRAM_TOKEN": "",
+            "OPENAI_API_KEY": "",
+            "OPENSEARCH_URL": "",
+            "AWS_ACCESS_KEY_ID": "",
+            "AWS_SECRET_ACCESS_KEY": "",
+            "AWS_REGION": ""
+        }
+    }
+}
